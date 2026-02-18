@@ -36,7 +36,7 @@ jobs:
         with:
           rulesets: 'category/java/errorprone.xml'
           sourcePath: 'app/src/main/java/org/example'
-#          analyzeModifiedFilesOnly: false 
+          analyzeModifiedFilesOnly: false 
       - name: Fail build if there are violations
         if: steps.pmd.outputs.violations > 50
         run: exit 1
