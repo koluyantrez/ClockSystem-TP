@@ -45,5 +45,5 @@ jobs:
         uses: pmd/pmd-github-action@v2
         with:
           rulesets: 'category/java/errorprone.xml'
-          sourcePath: 'src/main/java'
+          sourcePath: 'src/main/java/org/example'
           analyzeModifiedFilesOnly: false
