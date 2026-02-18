@@ -30,6 +30,13 @@ jobs:
         with:
           java-version: '25'
           distribution: 'temurin'
+      - name: Run PMD
+        id: pmd
+        uses: pmd/pmd-github-action@v2
+        with:
+          rulesets: 'category/java/errorprone.xml'
+          sourcePath: 'src/main/java/org/example'
+          analyzeModifiedFilesOnly: false  
 #      - name: Run PMD
 #        id: pmd
 #        uses: pmd/pmd-github-action@967a81f8b657c87f7c3e96b62301cb1a48efef29
@@ -41,9 +48,4 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: pmd-report.sarif
-      - name: Run PMD
-        uses: pmd/pmd-github-action@v2
-        with:
-          rulesets: 'category/java/errorprone.xml'
-          sourcePath: 'src/main/java/org/example'
-          analyzeModifiedFilesOnly: false
+      
