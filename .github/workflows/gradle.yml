@@ -13,7 +13,8 @@ on:
   pull_request:
     branches: [ "main" ]
 
-
+env:
+  DISPLAY: ":99.0"
 
 jobs:
   build:
@@ -21,6 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    services:
+      xvfb:
+        image: selenium/standalone-chrome:latest
+        options: -e VNC_SERVER=true -e VNC_PORT=5900
 
     steps:
     - uses: actions/checkout@v6
@@ -37,18 +42,8 @@ jobs:
       uses: gradle/actions/setup-gradle@v5   
       with:
         gradle-version: 9.3.1
-
-    - name: Build with Gradle Wrapper
-      run: ./gradlew build
-    - name: Start Xvfb
-      run: Xvfb $DISPLAY -ac -screen 0 1600x1200x24 > /dev/null 2>&1 &
       
-    env:
-      DISPLAY: ":99.0"
-    services:
-      xvfb:
-        image: selenium/standalone-chrome:latest
-        options: -e VNC_SERVER=true -e VNC_PORT=5900
+    
           
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
