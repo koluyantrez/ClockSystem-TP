@@ -1,5 +1,6 @@
 ![example branch parameter](https://github.com/koluyantrez/ClockSystem-TP/actions/workflows/gradle.yml/badge.svg)
 ![example branch parameter](https://github.com/koluyantrez/ClockSystem-TP/actions/workflows/pmd.yml/badge.svg)
+![example branch parameter](https://github.com/koluyantrez/ClockSystem-TP/actions/workflows/codeql.yml/badge.svg)
 
 # ClockSystem
 
