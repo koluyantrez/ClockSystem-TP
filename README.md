@@ -1,4 +1,5 @@
 ![example branch parameter](https://github.com/koluyantrez/ClockSystem-TP/actions/workflows/gradle.yml/badge.svg)
+![example branch parameter](https://github.com/koluyantrez/ClockSystem-TP/actions/workflows/dependabot.yml/badge.svg)
 
 # ClockSystem
 
