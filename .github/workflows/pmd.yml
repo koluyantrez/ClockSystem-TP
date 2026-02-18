@@ -36,7 +36,10 @@ jobs:
         with:
           rulesets: 'category/java/errorprone.xml'
           sourcePath: 'src/main/java/org/example'
-          analyzeModifiedFilesOnly: false  
+#          analyzeModifiedFilesOnly: false 
+      - name: Fail build if there are violations
+        if: steps.pmd.outputs.violations < 3
+        run: exit 1
 #      - name: Run PMD
 #        id: pmd
 #        uses: pmd/pmd-github-action@967a81f8b657c87f7c3e96b62301cb1a48efef29
