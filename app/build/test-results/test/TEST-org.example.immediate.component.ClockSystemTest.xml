@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.immediate.component.ClockSystemTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-02-18T07:52:45.709Z" hostname="fedora" time="0.021">
+  <properties/>
+  <testcase name="displayPMTestOne()" classname="org.example.immediate.component.ClockSystemTest" time="0.004"/>
+  <testcase name="displayPMTestTwo()" classname="org.example.immediate.component.ClockSystemTest" time="0.002"/>
+  <testcase name="getAlarmObservedTest()" classname="org.example.immediate.component.ClockSystemTest" time="0.002"/>
+  <testcase name="getObservedTimeTest()" classname="org.example.immediate.component.ClockSystemTest" time="0.002"/>
+  <testcase name="getModeStringTest()" classname="org.example.immediate.component.ClockSystemTest" time="0.001"/>
+  <testcase name="getIconTestOne()" classname="org.example.immediate.component.ClockSystemTest" time="0.001"/>
+  <testcase name="getIconTestTwo()" classname="org.example.immediate.component.ClockSystemTest" time="0.001"/>
+  <testcase name="testSwitch()" classname="org.example.immediate.component.ClockSystemTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

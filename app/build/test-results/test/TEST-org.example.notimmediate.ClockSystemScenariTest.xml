@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.notimmediate.ClockSystemScenariTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-02-18T07:52:45.757Z" hostname="fedora" time="15.627">
+  <properties/>
+  <testcase name="scenarioFourTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="2.503"/>
+  <testcase name="scenarioThreeTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="1.003"/>
+  <testcase name="scenarioSevenTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="2.502"/>
+  <testcase name="scenarioSixTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="2.503"/>
+  <testcase name="scenarioOneTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="2.103"/>
+  <testcase name="scenarioFiveTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="2.502"/>
+  <testcase name="scenarioTwoTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="1.004"/>
+  <testcase name="scenarioEigthTest()" classname="org.example.notimmediate.ClockSystemScenariTest" time="1.502"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

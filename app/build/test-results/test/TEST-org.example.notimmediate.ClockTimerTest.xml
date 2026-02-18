@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.notimmediate.ClockTimerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-18T07:53:01.386Z" hostname="fedora" time="4.203">
+  <properties/>
+  <testcase name="autoStopStateTest()" classname="org.example.notimmediate.ClockTimerTest" time="2.102"/>
+  <testcase name="tickTest()" classname="org.example.notimmediate.ClockTimerTest" time="2.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

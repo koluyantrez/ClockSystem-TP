@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.notimmediate.StopWatchTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-18T07:53:05.592Z" hostname="fedora" time="4.104">
+  <properties/>
+  <testcase name="resetingTest()" classname="org.example.notimmediate.StopWatchTest" time="2.002"/>
+  <testcase name="tickTest()" classname="org.example.notimmediate.StopWatchTest" time="2.102"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
